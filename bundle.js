@@ -59,6 +59,7 @@ var Vingador = /*#__PURE__*/function (_Pessoa) {
 }(Pessoa);
 
 var thor = new Vingador("Thor", 1.85, "100kg", ["Super Força", "Raio"], true, true);
+var capitao_america = new Vingador("Capitão América", 1.80, "95kg", ["Super Força"], true, true);
 
 document.getElementById("lutar").onclick = function () {
   thor.lutar();

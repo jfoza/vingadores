@@ -20,6 +20,7 @@ class Vingador extends Pessoa {
     }
 }
 
+
 const thor = new Vingador(
     "Thor", 
     1.85, 
@@ -28,6 +29,16 @@ const thor = new Vingador(
     true, 
     true
 );
+
+const capitao_america = new Vingador(
+    "Capitão América",
+    1.80,
+    "95kg",
+    ["Super Força"],
+    true,
+    true
+);
+
 
 document.getElementById("lutar").onclick = function () {
     thor.lutar();
